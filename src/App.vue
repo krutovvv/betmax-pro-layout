@@ -1,27 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <input class="hide" id="theme-control" type="checkbox">
+  <div id="template">
+    <div id="grid">
+      <Header />
+      <Filter />
+      <Table />
+    </div>
+  </div>
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component'
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import Header from './components/Header.vue'
+import Filter from './components/Filter.vue'
+import Table from './components/Table.vue'
 
-@Options({
+export default {
+  name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Filter,
+    Table
   }
-})
-export default class App extends Vue {}
+}
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './styles/index.scss';
+
+  #grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: var(--padding);
+  }
 </style>

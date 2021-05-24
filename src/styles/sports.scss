@@ -1,0 +1,48 @@
+.sport {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 0;
+  font-size: 0;
+  min-width: 50px;
+  display: block;
+  padding-bottom: 100%;
+
+  &.badminton {
+    background-image: url('~@/assets/sports/badminton.png');
+  }
+  &.baseball {
+    background-image: url('~@/assets/sports/baseball.png');
+  }
+  &.basketball {
+    background-image: url('~@/assets/sports/basketball.png');
+  }
+  &.cybersport {
+    background-image: url('~@/assets/sports/cybersport.png');
+  }
+  &.florball {
+    background-image: url('~@/assets/sports/florball.png');
+  }
+  &.football {
+    background-image: url('~@/assets/sports/football.png');
+  }
+  &.handball {
+    background-image: url('~@/assets/sports/handball.png');
+  }
+  &.hockey {
+    background-image: url('~@/assets/sports/hockey.png');
+  }
+  &.rugby {
+    background-image: url('~@/assets/sports/rugby.png');
+  }
+  &.table-tennis {
+    background-image: url('~@/assets/sports/table-tennis.png');
+  }
+  &.tennis {
+    background-image: url('~@/assets/sports/tennis.png');
+  }
+  &.volleyball {
+    background-image: url('~@/assets/sports/volleyball.png');
+    padding-bottom: 100%;
+  }
+}
