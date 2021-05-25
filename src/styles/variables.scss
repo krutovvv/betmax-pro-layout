@@ -1,5 +1,5 @@
 #template {
-  --background-color: #282A36;
+  --background-color: #24272F;
   --padding: 40px;
   --border-color: rgba(255, 255, 255, 0.1);
   --color: #ffffff;
@@ -12,14 +12,17 @@
   --alternative-background-hover: #1747C2;
   --alternative-color-hover: #ffffff;
   --transition: 350ms ease-out;
-  --table: #303141;
+  --table: #454658;
   --table-head: #454658;
+  --scroll: #68B15C;
+  --even: #333441;
+  --odd: #333441;
 }
 
 #theme-control:checked + #template {
   --background-color: #E5E5E5;
   --padding: 40px;
-  --border-color: rgba(0, 0, 0, 0.1);
+  --border-color: rgba(54, 54, 54, 0.06);
   --color: #2B2B2B;
   --button-background-color: #FFFFFF;
   --button-color: #000000;
@@ -30,6 +33,9 @@
   --alternative-background-hover: #1747C2;
   --alternative-color-hover: #ffffff;
   --transition: 350ms ease-out;
-  --table: #ffffff;
+  --table: #F7F7F7;
   --table-head: #f7f7f7;
+  --scroll: #68B15C;
+  --even: #F2F5FA;
+  --odd: #F2F5FA;
 }

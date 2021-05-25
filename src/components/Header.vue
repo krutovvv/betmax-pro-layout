@@ -107,7 +107,6 @@ export default {
         font-weight: 700;
         font-size: 20px;
         transition: color var(--transition);
-
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;

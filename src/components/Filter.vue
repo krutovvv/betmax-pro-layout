@@ -56,7 +56,7 @@ export default {
         content: '';
         width: 3px;
         height: 100%;
-        background-color: var(--button-background-color);
+        background-color: var(--scroll);
         position: absolute;
         right: calc((var(--padding) * -0.5) - 1.5px);
         top: 0;

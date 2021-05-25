@@ -27,9 +27,20 @@ export default {
 <style lang="scss">
   @import './styles/index.scss';
 
+  #template {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    background-color: var(--background-color);
+    color: var(--color);
+    transition: background-color var(--transition);
+    height: calc(100vh - var(--padding));
+    padding-bottom: var(--padding);
+  }
   #grid {
     display: grid;
     grid-auto-flow: row;
     grid-gap: var(--padding);
+    grid-template-rows: auto auto minmax(0, 1fr);
+    height: calc(100vh - var(--padding));
   }
 </style>
